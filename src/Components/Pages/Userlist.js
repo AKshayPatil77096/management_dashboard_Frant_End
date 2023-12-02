@@ -3,7 +3,7 @@ import axios from 'axios'
 
 
 function Userlist() {
-  const [users,setUsers]= useState();
+  const [users,setUsers]= useState([]);
   async function fetchUsers_2(){
     const result_2 = await axios.get('http://localhost:5000/users');
   }
@@ -23,7 +23,8 @@ function Userlist() {
     </thead>
 
     <tbody>
-      {users.map(record_2=>{
+      {
+      users.map(record_2=>{
         return(
           <tr>
           <td>{record_2.desig}</td>

@@ -33,8 +33,7 @@ function Role_access() {
 
             </tr>
           )
-        })
-      }
+        })}
      </tbody>
      </table>
     </>

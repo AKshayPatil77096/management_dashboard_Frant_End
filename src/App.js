@@ -21,7 +21,7 @@ function App() {
       <Route path ='/Forget' element={<Forget/>}/>
       <Route path ='/Logout' element={<Logout/>}/>
       <Route path ='/User_login/Activity' element={<Activity/>}/>
-      <Route path ='/Profile' element={<Profile/>}/>
+      <Route path ='/User_login/Profile' element={<Profile/>}/>
       <Route path ='/User_login/Userlist' element={<Userlist/>}/>
      </Routes>
      </BrowserRouter>

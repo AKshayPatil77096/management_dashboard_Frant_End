@@ -20,7 +20,7 @@ function Navbar() {
         <NavLink className="nav-link" to="/Forget">Forget</NavLink>
         <NavLink className="nav-link" to="/User_login/Activity">Activity</NavLink>
         <NavLink className="nav-link" to="/User_login/Userlist">Userlist</NavLink>
-        <NavLink className="nav-link" to="/Profile">Profile</NavLink>
+        <NavLink className="nav-link" to="/User_login/Profile">Profile</NavLink>
         <NavLink className="nav-link" to="/Logout">Logout</NavLink>
       </div>
     </div>
