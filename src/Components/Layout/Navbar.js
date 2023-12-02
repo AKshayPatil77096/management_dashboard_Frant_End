@@ -16,9 +16,10 @@ function Navbar() {
       <div className="navbar-nav">
         <NavLink className="nav-link" to="/User_login/login">Login</NavLink>
         <NavLink className="nav-link" to="/User_login/Create">Create</NavLink>
+        <NavLink className="nav-link" to="/User_login/Role_access">Role_access</NavLink>
         <NavLink className="nav-link" to="/Forget">Forget</NavLink>
-        <NavLink className="nav-link" to="/Activity">Activity</NavLink>
-        <NavLink className="nav-link" to="/Userlist">Userlist</NavLink>
+        <NavLink className="nav-link" to="/User_login/Activity">Activity</NavLink>
+        <NavLink className="nav-link" to="/User_login/Userlist">Userlist</NavLink>
         <NavLink className="nav-link" to="/Profile">Profile</NavLink>
         <NavLink className="nav-link" to="/Logout">Logout</NavLink>
       </div>

@@ -2,7 +2,20 @@
   "users": [
     {
       "id": 0
+    },
+    {
+      "name": "Akshay",
+      "Last_name": "Patil",
+      "user_id": "AkshayPatil77096",
+      "desig": "Full stack Python Developer",
+      "role": "Frant End Developer",
+      "phone": "7710811015",
+      "email": "arpatil339@gmail.com",
+      "country": "India",
+      "st_add": "Pune , Maharashtra",
+      "pin": "401005",
+      "city": "Thane",
+      "id": 1
     }
-    
   ]
 }

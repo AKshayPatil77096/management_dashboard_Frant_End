@@ -8,6 +8,7 @@ import Logout from "./Components/Pages/Logout";
 import Activity from "./Components/Pages/Activity";
 import Profile from "./Components/Pages/Profile";
 import Userlist from "./Components/Pages/Userlist";
+import Role_access from "./Components/Pages/User_login/Role_access";
 function App() {
   return (
      <>
@@ -16,11 +17,12 @@ function App() {
      <Routes>
       <Route path ='/User_login/login' element={<Login/>}/>
       <Route path ='/User_login/create' element={<Create/>}/>
+      <Route path ='/User_login/Role_access' element={<Role_access/>}/>
       <Route path ='/Forget' element={<Forget/>}/>
       <Route path ='/Logout' element={<Logout/>}/>
-      <Route path ='/Activity' element={<Activity/>}/>
+      <Route path ='/User_login/Activity' element={<Activity/>}/>
       <Route path ='/Profile' element={<Profile/>}/>
-      <Route path ='/Userlist' element={<Userlist/>}/>
+      <Route path ='/User_login/Userlist' element={<Userlist/>}/>
      </Routes>
      </BrowserRouter>
      </>
