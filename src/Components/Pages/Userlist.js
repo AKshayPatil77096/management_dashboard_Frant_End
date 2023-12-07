@@ -6,6 +6,7 @@ function Userlist() {
   const [users,setUsers]= useState([]);
   async function fetchUsers_2(){
     const result_2 = await axios.get('http://localhost:5000/users');
+    setUsers(result_2.data);
   }
 
   useEffect(()=>{

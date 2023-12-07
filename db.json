@@ -16,6 +16,34 @@
       "pin": "401005",
       "city": "Thane",
       "id": 1
+    },
+    {
+      "name": "VIshwajeet Avate",
+      "Last_name": "",
+      "user_id": "",
+      "desig": "",
+      "role": "",
+      "phone": "",
+      "email": "",
+      "country": "",
+      "st_add": "",
+      "pin": "",
+      "city": "",
+      "id": 2
+    },
+    {
+      "name": "VIshwajeet ",
+      "Last_name": "avate",
+      "user_id": "vish..",
+      "desig": "manager",
+      "role": "branch manager",
+      "phone": "98349212335",
+      "email": "akshaypatil7710@gmail.com",
+      "country": "India",
+      "st_add": "Lokmanya nagar, navi deth Pune",
+      "pin": "457533",
+      "city": "Pune",
+      "id": 3
     }
   ]
 }

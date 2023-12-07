@@ -6,6 +6,8 @@ function Activity() {
 
   async function fetchUsers_1(){
     const result_1 = await axios.get('http://localhost:5000/users');
+    setUsers(result_1.data);
+    
   }
 
   useEffect(()=>{
